@@ -3,21 +3,33 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/docs-vitepress/",
-  title: "docs-vitepress",
-  description: "vite",
+  title: "TownCoder",
+  description: "沉淀技术 分享人生",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    // 开启搜索
+    search: {
+      provider: 'local'
+    },
+    // 顶部导航
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'CodeBook', link: '/code/index' ,
+            items: [
+              { text: '计算机基础',  items: [
+                  { text: '操作系统', link: '/code/base/操作系统' },
+                  { text: '计算机网络', link: '/code/base/计算机网络' }
+                ]},
+              { text: '并发编程', items: [
+                  { text: '并发编程-掘金', link: '/code/juc/并发编程-掘金' },
+                  { text: 'Life', link: '/api-examples' }
+                ]}
+            ]},
+          { text: 'CodeLife', link: '/life/index' }
         ]
       }
     ],
