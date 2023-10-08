@@ -5,7 +5,16 @@ export default defineConfig({
     base: "/docs-vitepress/",
     title: "TownCoder",
     description: "沉淀技术 分享人生",
+    ignoreDeadLinks: true,
     themeConfig: {
+        lastUpdated: {
+            text: 'Updated at',
+            formatOptions: {
+                // @ts-ignore
+                dateStyle: 'full',
+                timeStyle: 'medium'
+            }
+        },
         // 开启搜索
         search: {
             provider: 'local'
