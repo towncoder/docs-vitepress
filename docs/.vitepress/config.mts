@@ -85,8 +85,8 @@ export default defineConfig({
                                                 text: '01-Innodb存储引擎.md',
                                                 link: '/code/database/01-Mysql/01-Innodb存储引擎.md'
                                             },
-                                            {text: '02-MySQL日志.md', link: '/code/database/01-Mysql/02-MySQL日志.md'},
-                                            {text: '03-MySQL调优.md', link: '/code/database/01-Mysql/03-MySQL调优.md'},
+                                            {text: '02-MySQL日志.md', link: '/code/database/01-Mysql/02-MySQL日志'},
+                                            {text: '03-MySQL调优.md', link: '/code/database/01-Mysql/03-MySQL调优'},
                                             {
                                                 text: '04-主从分库分表.md',
                                                 link: '/code/database/01-Mysql/04-主从分库分表.md'
