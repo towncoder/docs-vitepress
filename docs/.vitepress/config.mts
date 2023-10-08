@@ -77,37 +77,37 @@ export default defineConfig({
                                         link: '/code/database/00-jk-后端存储实战.md'
                                     },
                                     {
-                                        text: '01-Mysql',
+                                        text: '01-MySql',
                                         collapsed: true,
                                         items: [
-                                            {text: '00-参考文章.md', link: '/code/database/01-Mysql/00-参考文章.md'},
+                                            {text: '00-参考文章.md', link: '/code/database/01-MySql/00-参考文章.md'},
                                             {
                                                 text: '01-Innodb存储引擎.md',
-                                                link: '/code/database/01-Mysql/01-Innodb存储引擎.md'
+                                                link: '/code/database/01-MySql/01-Innodb存储引擎.md'
                                             },
-                                            {text: '02-MySQL日志.md', link: '/code/database/01-Mysql/02-MySQL日志'},
-                                            {text: '03-MySQL调优.md', link: '/code/database/01-Mysql/03-MySQL调优'},
+                                            {text: '02-MySQL日志.md', link: '/code/database/01-MySql/02-MySQL日志'},
+                                            {text: '03-MySQL调优.md', link: '/code/database/01-MySql/03-MySQL调优'},
                                             {
                                                 text: '04-主从分库分表.md',
-                                                link: '/code/database/01-Mysql/04-主从分库分表.md'
+                                                link: '/code/database/01-MySql/04-主从分库分表.md'
                                             },
                                             {
                                                 text: '05-MySQL的各种锁.md',
-                                                link: '/code/database/01-Mysql/05-MySQL的各种锁.md'
+                                                link: '/code/database/01-MySql/05-MySQL的各种锁.md'
                                             },
                                             {
                                                 text: '06-MySQL的存储.md',
-                                                link: '/code/database/01-Mysql/06-MySQL的存储.md'
+                                                link: '/code/database/01-MySql/06-MySQL的存储.md'
                                             },
                                             {
                                                 text: '07-执行计划详解.md',
-                                                link: '/code/database/01-Mysql/07-执行计划详解.md'
+                                                link: '/code/database/01-MySql/07-执行计划详解.md'
                                             },
                                             {
                                                 text: '08-集群高可用.md',
-                                                link: '/code/database/01-Mysql/08-集群高可用.md'
+                                                link: '/code/database/01-MySql/08-集群高可用.md'
                                             },
-                                            {text: '09-隔离级别.md', link: '/code/database/01-Mysql/09-隔离级别.md'},
+                                            {text: '09-隔离级别.md', link: '/code/database/01-MySql/09-隔离级别.md'},
                                         ]
                                     },
                                     {
