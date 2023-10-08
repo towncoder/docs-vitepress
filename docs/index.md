@@ -6,6 +6,8 @@ hero:
   name: "小镇码农"
 #  text: "沉淀技术 分享人生"
   tagline: 道阻且长 行则将至
+#  image:
+#    src: /qi.jpg
   actions:
     - theme: brand
       text: 分享技术
