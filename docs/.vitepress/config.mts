@@ -172,9 +172,7 @@ export default defineConfig({
                                 text: '美食',
                                 collapsed: true,
                                 items: [
-                                    {text: 'Linux命令', link: '/code/base/01-命令操作大全'},
-                                    {text: '操作系统', link: '/code/base/操作系统'},
-                                    {text: '计算机网络', link: '/code/base/计算机网络'},
+                                    {text: '程序员菜谱', link: '/life/美食/程序员菜谱.md'},
                                 ]
                             },
                         ]
